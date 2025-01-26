@@ -24,14 +24,10 @@ def entry_validation(input_message, valid_inputs, invalid_message):
         (str)  input           - returns the input when it's valid
     """
     while True:
-        input_value = str(input("\n"+ input_message +"\n"))
-        input_value = input_value.lower()
-        if input_value not in valid_inputs:
-            print(invalid_message)
-            continue
-        else:
-            break
-    return input_value
+        input_value = input(f"\n{input_message}\n").strip().lower()
+        if input_value in valid_inputs:
+            return input_value
+        print(invalid_message)
 
 # In this method get the filters inputted by the user.
 def get_filters():

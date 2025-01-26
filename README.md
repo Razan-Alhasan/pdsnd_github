@@ -1,13 +1,13 @@
 # GitHub project (Project 3) repository for PDSND By Eng. Razan Alhasan
 
 ### Date created
-January 26, 2025
+**January 26, 2025**
 
 ### Project Title
-BikeShare Project
+**BikeShare Project**
 
 ### Description
-This project analyzes BikeShare data to provide insights into bike rental patterns in major cities. It uses Python to process and analyze the data, and Git/GitHub for version control.
+This project analyzes _BikeShare data_ to provide insights into bike rental patterns in major cities. It uses `Python` to process and analyze the data, and Git/GitHub for version control.
 
 ### Files used
 - `bikeshare.py`: The main Python script for analyzing BikeShare data.
